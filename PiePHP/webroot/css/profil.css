@@ -1,0 +1,119 @@
+body{
+	background-image: url('../assets/Images/back-other.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+    width: 57.8%;
+}
+
+footer a[href='login'], footer a[href='login']:hover{
+	position: absolute;
+	font-size: 25px;
+    font-weight: bold;
+    margin-left: 42%;
+    text-decoration: none;
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+.icone{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.soc{
+	margin-left: 39%;
+    margin-top: 5%;
+}
+
+.pad{
+	padding: 3%;
+}
+
+#menu{
+	margin-left: 7%;
+}
+
+#menu ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+
+#menu li {
+	float:left;
+	margin:auto;
+	padding:0;
+}
+
+#menu li a {
+	display:block;
+	width:100px;
+	color:white;
+	text-decoration:none;
+}
+
+#menu li a:hover {
+	color:#FFD700;
+}
+
+#menu ul li ul {
+	display:none;
+}
+
+#menu ul li:hover ul {
+	display:block;
+}
+
+#menu li:hover ul li {
+	float:none;
+}
+
+#pre{
+	cursor: pointer;
+	font-size: 28px;
+	color: white;
+}
+
+#pre a{
+	font-size: 20px;
+}
+
+#sess{
+	color: white;
+	margin-right: 37%;
+    font-size: 55px;
+}
+
+nav{
+	height: 130px;
+}
+
+table{
+	margin-top: 15%;
+}
+
+.delete{
+	font-weight: bold;
+	font-size: 28px;
+	color: black;
+}
